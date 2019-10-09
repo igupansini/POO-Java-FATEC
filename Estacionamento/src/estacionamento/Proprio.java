@@ -29,7 +29,7 @@ public class Proprio extends Carro{
     public void imprimeDados(){
         super.imprimeDados();
         System.out.println("Data de compra: " + dataCompra + "\n" +
-                           "Valor de compra: " + valorCompra);
+                           "Valor de compra: " + valorCompra + "\n");
     }
 
     public double getValorCompra() {

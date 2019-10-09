@@ -29,7 +29,7 @@ public class Consignado extends Carro{
     public void imprimeDados(){
         super.imprimeDados();
         System.out.println("Valor do proprietario: " + valorProp + "\n" +
-                           "Nome do proprietario: " + nomeProp);
+                           "Nome do proprietario: " + nomeProp + "\n");
     }
 
     public double getValorProp() {

@@ -17,9 +17,19 @@ public class Estacionamento {
     public static void main(String[] args) {
         // TODO code application logic here
         Proprio p1;
+        Consignado c1;
         
         p1 = new Proprio("ABC-0123", "Audi A4", 2015, 71500, "09/12/2019");
         p1.imprimeDados();
+        p1.oferta(83500);
+        p1.venderCarro("Beltrano", 83500);
+        p1.imprimeDados();
+        
+        c1 = new Consignado("XYZ-9876", "BMW X1", 2017, 68500, "Fulano");
+        c1.imprimeDados();
+        c1.oferta(79500);
+        c1.venderCarro("Ciclano", 79500);
+        c1.imprimeDados();
     }
     
 }
